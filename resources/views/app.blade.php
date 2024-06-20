@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="description" content="CRM | ZOHO">
 
-        <title>{{ title ?? ''}} 'CRM'</title>
+        <title>{{ $title ?? ''}} 'CRM'</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
